@@ -1,4 +1,6 @@
 import Image from "next/image";
+import "@freee_jp/vibes/css";
+import { MessageBlock } from "@freee_jp/vibes";
 
 export default function Home() {
   return (
