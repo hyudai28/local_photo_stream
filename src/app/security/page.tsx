@@ -3,12 +3,12 @@
 import "@freee_jp/vibes/css";
 import ResultMessage from "./ResuletMessage";
 import AnswerInput from "./AnswerInput";
-import Question from "./Question";
+import QuestionDisplay from "./QuestionDisplay";
 
 export default function Page() {
   return (
     <div>
-      <Question />
+      <QuestionDisplay />
       <AnswerInput />
       <ResultMessage />
     </div>
